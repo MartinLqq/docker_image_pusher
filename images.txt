@@ -10,4 +10,13 @@
 
 
 # For snmp
-ghcr.io/lextudio/docker-snmpsim:master
+#ghcr.io/lextudio/docker-snmpsim:master
+
+
+############ For arm64v8
+--platform=linux/arm64  arm64v8/python:3.10-alpine
+--platform=linux/arm64  arm64v8/pypy:3.10-7.3.16-slim-bullseye
+#--platform=linux/arm64  arm64v8/mysql:8.4.0
+#--platform=linux/arm64  arm64v8/ubuntu:22.04
+#--platform=linux/arm64  arm64v8/debian:bullseye
+#--platform=linux/arm64  arm64v8/centos:7.9.2009
