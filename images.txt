@@ -25,5 +25,7 @@
 #--platform=linux/arm64  arm64v8/alpine:3.19
 #--platform=linux/arm64  arm64v8/python:3.10.14-slim-bullseye
 #--platform=linux/arm64  arm64v8/python:3.9-slim-bullseye
---platform=linux/arm64  arm64v8/python:3.9-bullseye
+#--platform=linux/arm64  arm64v8/python:3.9-bullseye
+
+--platform=linux/arm64  arm64v8/debian:11-slim
 
