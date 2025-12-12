@@ -29,6 +29,11 @@
 
 #--platform=linux/arm64  arm64v8/debian:11-slim
 
---platform=linux/arm64  arm64v8/mysql:8
---platform=linux/arm64  arm64v8/mongo:latest
---platform=linux/arm64  arm64v8/nginx:latest
+#--platform=linux/arm64  arm64v8/mysql:8
+#--platform=linux/arm64  arm64v8/mongo:latest
+#--platform=linux/arm64  arm64v8/nginx:latest
+
+--platform=linux/arm64  arm64v8/mysql:8-alpine
+#--platform=linux/arm64  arm64v8/mongo:latest-alpine
+#--platform=linux/arm64  arm64v8/nginx:latest-alpine
+
