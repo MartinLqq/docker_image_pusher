@@ -27,5 +27,8 @@
 #--platform=linux/arm64  arm64v8/python:3.9-slim-bullseye
 #--platform=linux/arm64  arm64v8/python:3.9-bullseye
 
---platform=linux/arm64  arm64v8/debian:11-slim
+#--platform=linux/arm64  arm64v8/debian:11-slim
 
+--platform=linux/arm64  arm64v8/mysql:8
+--platform=linux/arm64  arm64v8/mongo:latest
+--platform=linux/arm64  arm64v8/nginx:latest
